@@ -1,0 +1,23 @@
+{
+    "key": "my-app",
+    "name": "My app",
+    "description": "My very first app",
+    "baseUrl": "{{localBaseUrl}}",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed"
+    },
+    "scopes": [
+        "READ"
+    ],
+    "modules": {
+        "serviceDeskPortalHeaders": [
+            {
+                "key": "hello-world-sd-portal-header",
+                "url": "/hello-world"
+            }
+        ]
+    }
+}
