@@ -1,7 +1,7 @@
 {
-    "key": "my-app",
-    "name": "My app",
-    "description": "My very first app",
+    "key": "robin-JiraDev3",
+    "name": "robinJiraDev3",
+    "description": "robin Test Dev App3",
     "baseUrl": "{{localBaseUrl}}",
     "authentication": {
         "type": "jwt"
@@ -13,10 +13,25 @@
         "READ"
     ],
     "modules": {
-        "serviceDeskPortalHeaders": [
+        // "serviceDeskPortalHeaders": [
+        //     {
+        //         "key": "hello-world-sd-portal-header",
+        //         "url": "/hello-world"
+        //     }
+        // ]
+        "generalPages": [
             {
-                "key": "hello-world-sd-portal-header",
-                "url": "/hello-world"
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "robin JiraDev Test App"
+                },
+                "key": "hello-world",
+                "url": "/hello-world",
+                "conditions": [
+                    {
+                        "condition": "user_is_logged_in"
+                    }
+                ]
             }
         ]
     }
