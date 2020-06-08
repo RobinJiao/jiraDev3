@@ -13,12 +13,6 @@
         "READ"
     ],
     "modules": {
-        // "serviceDeskPortalHeaders": [
-        //     {
-        //         "key": "hello-world-sd-portal-header",
-        //         "url": "/hello-world"
-        //     }
-        // ]
         "generalPages": [
             {
                 "location": "system.top.navigation.bar",
