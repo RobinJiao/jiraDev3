@@ -11,7 +11,7 @@ export default function routes(app, addon) {
         // Rendering a template is easy; the render method takes two params:
         // name of template and a json object to pass the context in.
         res.render('hello-world', {
-            title: 'Atlassian Connect'
+            title: 'robin First App via Altas-Connection'
             //issueId: req.query['issueId']
         });
     });
