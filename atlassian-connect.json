@@ -26,6 +26,17 @@
                         "condition": "user_is_logged_in"
                     }
                 ]
+            },
+            {
+                "key": "activity",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "robin Test Activity"
+                },
+                "url": "/activity",
+                "conditions": [{
+                    "condition": "user_is_logged_in"
+                }]
             }
         ]
     }
