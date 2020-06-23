@@ -18,6 +18,6 @@ export default function routes(app, addon) {
 
     // Add additional route handlers here...
     app.get('/activity', addon.authenticate(), function(req, res) {
-        res.render('activity', { title: "Robin activity" });
+        res.render('activity', { title: "Robin activities from Cloud App" });
     });
 }

@@ -13,7 +13,7 @@ AP.request('/rest/api/3/project/search', {
 
 		newCellLogo.innerHTML = "<img src='" + value.avatarUrls["16x16"] + "' width='16'>";
     	newCellKey.innerHTML = "<code>" + value.key + "</code>";
-    	newCellProject.innerHTML = "<a href='https://robindev.altalssian.net/browse/" + value.key + "'>" + value.name + "</a>";
+    	newCellProject.innerHTML = "<a href='https://robindev.atlassian.net/browse/" + value.key + "'>" + value.name + "</a>";
 		};
 
 		projectTable.deleteRow(1);
